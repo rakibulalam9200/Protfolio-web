@@ -1,0 +1,87 @@
+.card-title{
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets//fonts/Poppins-Bold.ttf");
+  font-size: 30px;
+}
+
+.card-tech-text{
+
+    font-family: "Poppins SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../assets//fonts/Poppins-SemiBold.ttf");
+    color: #1F2235;
+    font-size: 14px;
+    background-color: #FFF8DC;
+    padding: 5px;
+}
+
+.card-text-para{
+  font-family: "Poppins Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../assets//fonts/Poppins-Regular.ttf");
+    color: #1F2235;
+    font-size: 14px;
+    text-align: justify;
+
+}
+.projects-bullets {
+  margin: 80px 0;
+}
+.bullets-heading {
+  font-family: "Poppins Bold";
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+.bullets {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.bullets-blob {
+  height: 14px;
+  width: 14px;
+  margin: 0 10px 0 0;
+  background-color: #24263B;
+  border-radius: 50%;
+}
+
+.project-btn{
+  border-radius: 15px;
+  color: #24263B;
+  padding:5px 10px;
+  background-color: #FFF8DC;
+}
+.project-btn:hover{
+  background-color: #24263B;
+  color:#FFF8DC;
+}
+.live-btn{
+  border-radius: 15px;
+  color: #FFF8DC;
+  padding:5px 10px;
+  background-color: #24263B;
+
+}
+.live-btn:hover{
+  color: #24263B;
+  background-color:#FFF8DC;
+}
+
+.git-btn {
+  border-radius: 15px;
+  color: #FFF8DC;
+  padding:5px 10px;
+  background-color: #fd6b3e;
+  border: 2px solid #FFF8DC;
+}
+.git-btn:hover{
+  background-color: #FFF8DC;
+  color: #fd6b3e;
+  border: 2px solid #24263B;
+}
