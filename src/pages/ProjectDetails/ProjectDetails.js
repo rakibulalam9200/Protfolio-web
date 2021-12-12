@@ -21,7 +21,7 @@ const ProjectDetails = () => {
   };
  
   return (
-    <div>
+    <div className="container">
      { projectDetails && 
      <Card className="shadow rounded card-style my-2">
        <Card.Body>
