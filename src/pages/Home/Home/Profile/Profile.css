@@ -1,9 +1,10 @@
 .profile-container {
+    padding-top: 50px ;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 50%;
+    height: 40%;
     min-height: fit-content;
   }
   .profile-parent {

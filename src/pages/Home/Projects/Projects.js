@@ -54,7 +54,7 @@ const Project = () => {
         }
     ]
     return (
-        <div className='container my-5'>
+        <div className='container my-5' id="projects">
              <ScreenHeading title={"My Projects"} subHeading={"Projects those represents me"} />   
                <div className='projects-contanier'>
                 <Row xs={1} md={2} lg={2} className="g-4">

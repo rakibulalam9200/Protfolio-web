@@ -4,7 +4,7 @@ import './AboutMe.css';
 const AboutMe = () => {
     const SCREEN_CONSTSANTS = {
         description:
-          "Full stack web developer with background knowledge in MERN stack along with having experiences in various technology.Professional experience with a BSC willing to be an asset for an organization.",
+          "Full stack web developer with background knowledge in MERN stack along with having experiences in various technology. Professional experience with a BSC willing to be an asset for an organization.",
         highlights: {
           bullets: [
             "Full Stack web development",
@@ -25,7 +25,7 @@ const AboutMe = () => {
         ));
       };
     return (
-        <div className="about-me-container screen-container">
+        <div className="about-me-container screen-container" id="aboutMe">
         <div className="about-me-parent">
           <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
           <div className="about-me-card">
@@ -41,7 +41,12 @@ const AboutMe = () => {
                 {renderHighlight()}
               </div>
               <div className="about-me-options">
-                <button className="btn primary-btn"> Hire Me </button>
+              <a  href="#contact">
+              <button className="btn primary-btn">
+                {""}
+                Hire Me{" "}
+              </button>
+            </a>
                 <a href="/Rakibul Alam_Resume.pdf" download="Rakibul Alam_Resume.pdf">
                   <button className="btn highlighted-btn">Get Resume</button>
                 </a>

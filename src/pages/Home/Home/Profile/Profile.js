@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import Typical from "react-typical";
 import "./Profile.css";
 const Profile = () => {
@@ -54,10 +57,13 @@ const Profile = () => {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {""}
-              Hire Me{" "}
-            </button>
+            <a  href="#contact">
+              <button className="btn primary-btn">
+                {""}
+                Hire Me{" "}
+              </button>
+            </a>
+            
             <a
               href="/Rakibul Alam_Resume.pdf"
               downlaod="Rakibul Alam_Resume.pdf"

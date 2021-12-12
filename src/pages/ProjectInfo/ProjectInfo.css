@@ -73,15 +73,28 @@
   background-color:#FFF8DC;
 }
 
-.git-btn {
+.git-client-btn {
   border-radius: 15px;
   color: #FFF8DC;
   padding:5px 10px;
   background-color: #fd6b3e;
   border: 2px solid #FFF8DC;
 }
-.git-btn:hover{
+.git-client-btn:hover{
   background-color: #FFF8DC;
   color: #fd6b3e;
   border: 2px solid #24263B;
+}
+
+.git-server-btn {
+  border-radius: 15px;
+  color: #FFF8DC;
+  padding:5px 10px;
+  background-color: #24263B;
+  border: 2px solid #fd6b3e;
+}
+.git-server-btn:hover {
+
+  color: #24263B;
+  background-color: #FFF8DC;
 }

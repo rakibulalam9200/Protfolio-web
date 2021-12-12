@@ -1,0 +1,27 @@
+.nav-container{
+    background-color: #FFF8DC;
+    font-family: "Poppins SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../../assets//fonts/Poppins-SemiBold.ttf");
+}
+.nav-brand{
+    background-color: #fff;
+    font-family: "Poppins Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../../assets//fonts/Poppins-Bold.ttf");
+    color: #24263B !important;
+    padding: 5px 10px;
+}
+
+.nav-link-style{
+    color: #24263B !important;
+    padding: 5px 15px;
+}
+.nav-link-style:hover{
+    color: #FFF8DC !important;
+    padding: 5px 15px;
+    background-color: #24263B !important;
+    border-radius: 10px;
+}

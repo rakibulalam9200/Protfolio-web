@@ -46,21 +46,21 @@ const ProjectInfo = ({projectInfo}) => {
             </div> 
              <div className="d-flex justify-content-center my-2">
                     <a href={gitClientCodeLink} className='mx-5'>
-                    <Button className="git-btn">
+                    <button className="git-client-btn">
                     {" "}
                     Client Side Code
-                    </Button>
-                    </a>
-                   
-                    {gitServerCodeLink?
-                    <a href={gitServerCodeLink}>
-                    <Button className="git-btn">
-                    {" "}
-                    Server  Code
-                    </Button>
-                    </a>:<div></div>
-                  }
+                    </button>
+                    </a>    
             </div> 
+            { gitServerCodeLink?
+              <div className="d-flex justify-content-center my-2">
+                  <a href={gitServerCodeLink} className='mx-5'>
+                  <button className="git-server-btn">
+                  Server Side Code
+                  </button>
+                  </a>    
+              </div>:<div></div>
+            } 
             
             </Card.Body>
         </Card>
