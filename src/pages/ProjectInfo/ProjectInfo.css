@@ -5,6 +5,9 @@
   src: url("../../assets//fonts/Poppins-Bold.ttf");
   font-size: 30px;
 }
+.card-style{
+  min-height: 864px;
+}
 
 .card-tech-text{
 

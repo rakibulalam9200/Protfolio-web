@@ -3,6 +3,7 @@ import './App.css';
 import Blogs from "./pages/Blogs/Blogs";
 import Home from './pages/Home/Home/Home';
 import NotFound from "./pages/NotFound/NotFound";
+import ProjectDetails from "./pages/ProjectDetails/ProjectDetails";
 import Footer from "./pages/Shared/Footer/Footer";
 import Header from './pages/Shared/Header/Header';
 
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route  path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/project/:name">
+              <ProjectDetails></ProjectDetails>
             </Route>
             <Route path="/blogs">
               <Blogs></Blogs>
